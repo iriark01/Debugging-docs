@@ -30,19 +30,17 @@ Let's start by writing a simple application in the [online compiler](https://dev
 1. Add the `mbed` library.
 1. Create a `main.cpp` file with the following content:
 
-```cpp
-#include "mbed.h"
+        #include "mbed.h"
 
-DigitalOut led(LED1);
+        DigitalOut led(LED1);
 
-int main()
-{
-    while (true) {
-        led = !led; // toggle led
-        wait(0.2f);
-    }
-}
-```
+        int main()
+        {
+            while (true) {
+                led = !led; // toggle led
+                wait(0.2f);
+            }
+        }
 
 Click  *Compile* and verify that your application builds as expected.
 
