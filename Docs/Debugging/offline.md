@@ -42,7 +42,7 @@ Let's start by writing a simple application in the [online compiler](https://dev
             }
         }
 
-1. Click  *Compile* and verify that your application builds as expected.
+1. Click  *Compile* and verify that your application builds as expected.  
 <span style="text-align:center; border:1px solid #000; display:block; height:100%; padding:10px;">![Compile and Download](Images/offline12.png)</span>
 
 ## Build the application with a local toolchain
